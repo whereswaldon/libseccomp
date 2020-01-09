@@ -43,6 +43,7 @@ env:
 
 # resolve any remaining dependency issues
 before_install:
+  - pip install pgen
   # assume the distro has an old version of cython
   - pip install cython
   # see https://github.com/eddyxu/cpp-coveralls
